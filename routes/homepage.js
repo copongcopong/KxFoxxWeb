@@ -10,7 +10,7 @@ const $blog = module.context.collection('blog');
 
 router.get('/', function (req, res) {
   try {
-    res.view('homepage-blogposts', {posts: $blog.byExample({}).toArray() }, 'main');
+    res.view('homepage-blogposts', {posts: $blog.byExample({draft: false}).toArray() }, 'main');
   } catch (e) {
     //on error, use local file instead
     res.view('homepage/index.html', {text: "Worldy"}, 'main');

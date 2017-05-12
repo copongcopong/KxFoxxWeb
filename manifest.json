@@ -5,7 +5,7 @@
     "engines": {
         "arangodb": "^3.0.0"
     },
-    "author": "Earl Celis",
+    "author": "Copongcopong",
     "license": "whatever",
     "main": "main.js",
     "scripts": {

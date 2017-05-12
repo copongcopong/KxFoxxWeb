@@ -1,0 +1,19 @@
+{
+    "name": "KxFoxxWeb",
+    "version": "0.0.1",
+    "description": "Kx web pages",
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "author": "Earl Celis",
+    "license": "whatever",
+    "main": "main.js",
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "files": {
+      "/static": "assets"
+    },
+    "tests": "test/**/*.js"
+}
